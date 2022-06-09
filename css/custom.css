@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-width: 320px;
+    background-color: #f0f6f8;
+    color: #5e5a5a;
+}
+
+table {
+    margin: 0 auto;
+}
+
+td, 
+th,
+.newProduct input, 
+.newPrice input {
+    width: 70px;
+    font-size: 0.8rem;
+}
+
+.quantity input,
+.cancelIcon {
+    width: 30px;
+}
+
+input {
+    width: 100px;
+}
+
+svg.remove {
+    cursor: pointer;
+    fill: #8b8b8b;
+}
+
+svg.remove:hover {
+    fill: #c33232;
+}
